@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           2010 Google EVEN BETTER EDITION
 @namespace      github.com/openstyles/stylus
-@version        1.3.1
+@version        1.3.2
 @description    A new userstyle
 @author         Xammand
 @preprocessor   stylus
 @var checkbox labels "Old Labels" 0
-@var checkbox footer "Accurate Home Page Footer" 0
+@var checkbox footer "Accurate Footer" 0
 @var checkbox header "Google Gbar (Hide Modern Header)" 0
 ==/UserStyle== */
 
@@ -1322,7 +1322,7 @@
         color: revert;
     }
     
-    .Em2Ord.S7S4N {
+    .Em2Ord.S7S4N:not(:has(.yTaH4c)) {
         padding: 7px 5px !important;
         margin-left: 179px;
     }
@@ -1633,6 +1633,32 @@
         }
     }
     
+    /* Message Box */
+
+    .PsAlOe.sj692e {
+        background: #ebeff9;
+        border-radius: 0;
+        border: 1px solid #6b90da;
+        padding: .2em .6em;
+        margin: .1em .85em .6em .6em;
+        width: 600px;
+    }
+    
+    .vYeFie {
+        position: unset;
+        width: unset;
+        padding: 0;
+    }
+    
+    .PsAlOe:not(.S7S4N) > .yTaH4c {
+        margin-top: 2px;
+    }
+    
+    .vYeFie:empty + .yTaH4c .dMNVAe:not(:has(button:not(.TrZEUc))) {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
     /* Sign Up */
     
     .HnFhQ {
@@ -1749,5 +1775,299 @@
     
     .lFsF4c .MQL3Ob {
         display: none;
+    }
+    
+    /* Account Picker */
+
+    .Dl08I {
+        padding: 7px 5px;
+        width: 412px;
+        margin-left: 179px;
+    }
+    
+    .Dl08I li:not(.aZvCDf.cd29Sd.zpCp3.SmR8) {
+        border-top: 1px solid #DEE4F4;
+        display: block;
+    }
+    
+    .Dl08I li:first-child {
+        border: none;
+    }
+    
+    .lPxAeb .JQ5tlb {
+        display: none;
+    }
+    
+    .lPxAeb .pGzURd {
+        color: inherit;
+        font: inherit;
+        font-weight: bold;
+        font-size: smaller;
+        padding: 7px 5px;
+        padding-bottom: 0;
+    }
+    
+    .lPxAeb .yAlK0b {
+        color: #6f6f6f;
+        font: inherit;
+        font-size: smaller;
+        letter-spacing: unset;
+        padding: 7px 5px;
+        padding-top: 0;
+    }
+    
+    .lPxAeb .lrLKwc {
+        font: inherit;
+        font-size: smaller;
+        color: #6f6f6f;
+        letter-spacing: unset;
+        margin-top: 7px;
+        padding: 7px 5px;
+    }
+    
+    .xigLF {
+        display: none;
+    }
+    
+    .riDSKb {
+        color: inherit;
+        font: inherit;
+        font-size: smaller;
+        font-weight: bold;
+        margin: 0;
+        padding: 7px 5px;
+    }
+}
+
+@-moz-document url-prefix("https://accounts.google.com/SignOutOptions") {
+    /* Account Picker */
+ 
+    html {
+        background: none;
+    }
+    
+    body {
+        color: black;
+    }
+    
+    .google-header-bar.centered {
+        margin-bottom: 9px;
+        margin-left: -2px;
+        position: relative;
+        height: unset;
+    }
+    
+    .google-header-bar .content {
+        padding: 0;
+    }
+    
+    .google-header-bar.centered .header .logo {
+        margin: 0;
+        background: none;
+        content: url("data:image/gif;base64,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");
+        width: unset;
+        height: unset;
+    }
+    
+    .main {
+        padding: 0;
+    }
+    
+    .main:before {
+        display: none;
+    }
+    
+    .banner {
+        text-align: left;
+    }
+    
+    .banner h1 {
+        display: block;
+        font-size: 19px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+        font-family: inherit;
+        color: inherit;
+    }
+    
+    .cards {
+        max-width: none;
+        padding: 0;
+        margin: 0;
+        width: 610px;
+    }
+    
+    .manage-card {
+        padding: 7px 5px;
+        width: 412px;
+        box-shadow: none;
+        margin-bottom: 0;
+        background: none;
+        border-radius: 0;
+    }
+    
+    .manage-card ol {
+        background: none;
+    }
+    
+    .manage-card ol li {
+        border-top: 1px solid #DEE4F4;
+        height: unset;
+    }
+    
+    .manage-card ol li:last-child {
+        height: unset;
+        border: none !important;
+    }
+    
+    .manage-card ol li button {
+        padding: 0;
+        color: inherit;
+        height: unset;
+    }
+    
+    .manage-card ol li.active-session-account button {
+        height: unset;
+    }
+    
+    .manage-card ol li button img {
+        display: none;
+    }
+    
+    .manage-card ol li button span.account-name, .manage-card ol li .remove-entry span.account-name {
+        margin: 0;
+        padding: 7px 5px;
+        padding-bottom: 0;
+        font-size: revert;
+        color: inherit;
+    }
+    
+    .manage-card ol li button span.account-email, .manage-card ol li .remove-entry span.account-email {
+        margin: 0;
+        padding: 7px 5px;
+        padding-top: 0;
+        font-size: revert;
+        color: #6f6f6f;
+    }
+    
+    .manage-card ol li.active-session-account a {
+        border: none;
+        margin: 0;
+        padding: 7px 5px;
+        padding-top: 0;
+        font-size: revert;
+        color: #3366cc;
+    }
+    
+    .manage-card ol li:has(span.add-account) {
+        border: none !important;
+        margin-top: 4px;
+    }
+    
+    .manage-card ol li:has(span.add-account):after {
+        content: "OR";
+        color: #6f6f6f;
+        cursor: text;
+        width: 19.49em;
+        display: block;
+        text-align: center;
+        font-size: revert;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .manage-card ol li button:has(span.add-account) {
+        color: revert;
+        background: revert !important;
+        font: revert;
+        padding: revert;
+        margin: revert;
+        display: revert;
+        border: revert;
+        text-align: center;
+        width: 19em;
+    }
+    
+    .manage-card ol li button span.add-account {
+        margin: 0;
+        padding: 0;
+        font: inherit;
+        color: inherit;
+    }
+    
+    .manage-card ol li button.sign-out, .manage-card ol li button.manageAccounts  {
+        color: revert;
+        background: revert !important;
+        font: revert;
+        padding: revert;
+        margin: revert;
+        display: revert;
+        border: revert;
+        width: 19em;
+    }
+    
+    .google-footer-bar {
+        position: unset;
+        height: unset;
+        border: none;
+        color: #666;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .footer {
+        padding: 0;
+        font-size: inherit;
+        display: inline-block;
+    }
+    
+    #lang-vis-control {
+        display: none !important;
+    }
+    
+    .footer ul {
+        max-width: none;
+        min-height: unset;
+        margin: 0;
+        float: none;
+    }
+    
+    .footer ul li {
+        color: revert;
+        display: inline-block;
+        padding: 0;
+    }
+    
+    .footer ul li:after {
+        content: " - ";
+        cursor: text;
+    }
+    
+    .footer ul li:last-child:after {
+        display: none;
+    }
+    
+    .footer a {
+        color: revert;
+    }
+    
+    if labels == 1 {
+        .footer ul li:nth-child(2) a:after {
+            content: " Policy";
+        }
+        
+        .footer ul li:nth-child(3) a:after {
+            content: " of Service";
+        }
+    }
+    
+    if footer == 1 {
+        .footer ul:before {
+            content: "©2010 Google - ";
+            cursor: text;
+        }
     }
 }

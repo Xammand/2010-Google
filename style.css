@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           2010 Google EVEN BETTER EDITION
 @namespace      github.com/openstyles/stylus
-@version        1.3.0
+@version        1.3.1
 @description    A new userstyle
 @author         Xammand
 @preprocessor   stylus
@@ -1631,5 +1631,123 @@
         .qKvP1b:nth-child(3) a:after {
             content: " of Service";
         }
+    }
+    
+    /* Sign Up */
+    
+    .HnFhQ {
+        display: block;
+    }
+    
+    .nTjNoe {
+        display: block;
+    }
+    
+    .Udn8cf {
+        padding: 0 !important;
+    }
+    
+    .O1htCb-H9tDt {
+        display: block;
+    }
+    
+    .VfPpkd-O1htCb {
+        display: block;
+        padding: 7px 5px;
+        margin-left: 178px;
+    }
+    
+    .VfPpkd-O1htCb .VfPpkd-TkwUic {
+        padding: 0;
+        width: 317px;
+        height: 18px;
+    }
+    
+    .VfPpkd-O1htCb-OWXEXe-INsAgc .VfPpkd-TkwUic :not(.VfPpkd-NSFCdd-i5vt6e-OWXEXe-NSFCdd) .VfPpkd-NSFCdd-Ra9xwd, .fb7Hrf:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me).VfPpkd-O1htCb-OWXEXe-XpnDCe .VfPpkd-NSFCdd-i5vt6e .VfPpkd-NSFCdd-Ra9xwd, .Udn8cf.Udn8cf .fb7Hrf.VfPpkd-O1htCb-OWXEXe-UJflGc:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-NSFCdd-Ra9xwd, .Udn8cf.Udn8cf .fb7Hrf:not(.VfPpkd-O1htCb-OWXEXe-OWB6Me) .VfPpkd-NSFCdd-Ra9xwd {
+        position: absolute;
+        top: -7px;
+        left: -184px;
+        border: none;
+        max-width: none;
+        width: 184px !important;
+        height: unset;
+        padding: 7px 5px;
+        padding-left: 0;
+    }
+    
+    .Udn8cf.Udn8cf .fb7Hrf .VfPpkd-NLUYnc-V67aGc {
+        font: inherit;
+        font-size: smaller !important;
+        font-weight: bold;
+        color: inherit !important;
+        left: unset;
+        right: unset;
+        top: unset;
+        transform: none;
+        letter-spacing: unset;
+        transition: none;
+        text-transform: unset;
+    }
+    
+    .Udn8cf.Udn8cf .fb7Hrf .VfPpkd-NLUYnc-V67aGc:after {
+        content: ":";
+        cursor: text;
+    }
+    
+    .vYeFie:empty + .yTaH4c .dMNVAe:not(:has(button:not(.TrZEUc))) {
+        padding-bottom: 5px;
+        margin-left: 184px;
+    }
+    
+    .v5IR3e .sfqPrd {
+        border: none;
+    }
+    
+    .uxXgMe {
+        display: inline-block;
+        height: unset;
+        width: unset !important;
+    }
+    
+    .VfPpkd-GCYh9b-OWXEXe-dgl2Hf .VfPpkd-gBXA9-bMcfAe {
+        position: unset;
+        width: revert;
+        height: revert;
+        font: revert;
+        color: revert;
+        margin: revert;
+        padding: revert;
+        opacity: 1;
+        cursor: revert;
+    }
+    
+    .VfPpkd-RsCWK, .VfPpkd-eHTEvd {
+        display: none;
+    }
+    
+    .jOkGjb {
+        font: inherit;
+        font-size: smaller;
+        color: inherit;
+        max-width: none;
+    }
+    
+    .QTJzre {
+        min-height: unset;
+    }
+    
+    #c23 .Ekjuhf {
+        margin: 0;
+        margin-left: 184px;
+        margin-top: -4px;
+        font: inherit;
+        font-size: smaller;
+        letter-spacing: unset;
+        display: block;
+        color: #6f6f6f;
+    }
+    
+    .lFsF4c .MQL3Ob {
+        display: none;
     }
 }

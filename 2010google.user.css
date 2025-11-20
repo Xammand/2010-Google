@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           2010 Google EVEN BETTER EDITION
 @namespace      github.com/openstyles/stylus
-@version        1.3.2
+@version        1.3.3
 @description    A new userstyle
 @author         Xammand
 @preprocessor   stylus
@@ -1044,8 +1044,12 @@
 
 @-moz-document domain("accounts.google.com") {
     /* Accounts */
+
+    button, input[type="button"], input[type="submit"], .manage-card ol li button:has(span.add-account), .JYXaTc .XjS9D.XjS9D .BqKGqe {
+        all: revert;
+    }
     
-    body, .jR8x9d {
+    body, .jR8x9d, body.jR8x9d {
         font-family: arial, sans-serif;
         margin: 0;
         padding: 13px 15px 15px;
@@ -1276,11 +1280,15 @@
         display: inline-block;
     }
     
+    .VfPpkd-MPu53c {
+        cursor: default;
+    }
+    
     .NhPs4c .v8aRxf .gyrWGe{
         display: inline-block;
         width: unset;
         margin: 0;
-        margin-left: 4px;
+        cursor: default;
     }
     
     .QkTfte .jOkGjb {
@@ -1312,14 +1320,7 @@
     }
     
     .VfPpkd-MPu53c-OWXEXe-dgl2Hf .VfPpkd-muHVFf-bMcfAe {
-        position: unset;
-        width: revert;
-        height: revert;
-        font: revert;
-        opacity: 1;
-        margin: revert;
-        padding: revert;
-        color: revert;
+        all: revert;
     }
     
     .Em2Ord.S7S4N:not(:has(.yTaH4c)) {
@@ -1531,6 +1532,7 @@
         border-radius: 0;
         padding: 0;
         text-decoration: underline;
+        cursor: pointer;
     }
     
     .BqKGqe .VfPpkd-Jh9lGc  {
@@ -1540,19 +1542,6 @@
     .JYXaTc .XjS9D.XjS9D .BqKGqe {
         width: 19em;
         color: revert !important;
-        background: revert;
-        font: revert;
-        letter-spacing: revert;
-        height: revert;
-        border-radius: revert;
-        padding: revert;
-        border: revert;
-        box-shadow: revert;
-        transition: none;
-        margin: revert;
-        display: revert;
-        min-width: revert;
-        -webkit-appearance: revert;
     }
     
     .VfPpkd-LgbsSe .VfPpkd-RLmnJb, .nCP5yc .VfPpkd-Jh9lGc {
@@ -1837,10 +1826,45 @@
         margin: 0;
         padding: 7px 5px;
     }
+    
+    /* Loading */
+
+    .kPY6ve {
+        display: none;
+    }
+    
+    .Ih3FE {
+        position: unset;
+        height: unset;
+    }
+    
+    .Ih3FE:has(.sZwd7c.qdulke) {
+        display: none;
+    }
+    
+    .Ih3FE:before {
+        content: "Loading...";
+    }
+    
+    .sZwd7c {
+        display: none;
+    }
+    
+    .UXFQgc.hAfgic {
+        overflow: hidden;
+    }
+    
+    .UXFQgc.GEcl0c .qWK5J {
+        opacity: 0;
+    }
 }
 
 @-moz-document url-prefix("https://accounts.google.com/SignOutOptions") {
     /* Account Picker */
+
+    button, input[type="button"], input[type="submit"], .manage-card ol li button.sign-out, .manage-card ol li button.manageAccounts {
+        all: revert;
+    }
  
     html {
         background: none;
@@ -1980,13 +2004,7 @@
     }
     
     .manage-card ol li button:has(span.add-account) {
-        color: revert;
         background: revert !important;
-        font: revert;
-        padding: revert;
-        margin: revert;
-        display: revert;
-        border: revert;
         text-align: center;
         width: 19em;
     }
@@ -1998,14 +2016,8 @@
         color: inherit;
     }
     
-    .manage-card ol li button.sign-out, .manage-card ol li button.manageAccounts  {
-        color: revert;
+    .manage-card ol li button.sign-out, .manage-card ol li button.manageAccounts {
         background: revert !important;
-        font: revert;
-        padding: revert;
-        margin: revert;
-        display: revert;
-        border: revert;
         width: 19em;
     }
     

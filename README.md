@@ -6,7 +6,7 @@ A style that tries it's best to be as accurate as it can be to the 2010 layout o
    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
    - [Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. [Get Gplex](https://greasyfork.org/en/scripts/492193-gplex-old-google-frontend)
-3. [Get this style](https://raw.githubusercontent.com/Xammand/2010-Google/refs/heads/main/style.css)
+3. [Get this style](https://github.com/Xammand/2010-Google/raw/refs/heads/main/2010google.user.css)
 4. (Optional) [Get Google Gbar for a better top bar](https://github.com/CallyHam/Google-Gbar)
 # Settings
 Old Labels - Enables old labels used in Google from 2010 (only in english)  

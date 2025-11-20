@@ -8,9 +8,9 @@ A style that tries it's best to be as accurate as it can be to the 2010 layout o
 2. Get Tampermonkey Extension
    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
    - [Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-4. [Get Gplex](https://greasyfork.org/en/scripts/492193-gplex-old-google-frontend)
-5. [Get this style](https://github.com/Xammand/2010-Google/raw/refs/heads/main/2010google.user.css)
-6. (Optional) [Get Google Gbar for a better top bar](https://github.com/CallyHam/Google-Gbar)
+3. [Get Gplex](https://greasyfork.org/en/scripts/492193-gplex-old-google-frontend)
+4. [Get this style](https://github.com/Xammand/2010-Google/raw/refs/heads/main/2010google.user.css)
+5. (Optional) [Get Google Gbar for a better top bar](https://github.com/CallyHam/Google-Gbar)
 # Settings
 Old Labels - Enables old labels used in Google from 2010 (only in english)  
 Accurate Footer - Enables a more accurate footer  
